@@ -19,7 +19,7 @@ public class Crawler4jApplication {
 		File crawlStorage = new File("src/test/resources/crawler4j");
 		CrawlConfig config = new CrawlConfig();
 		config.setCrawlStorageFolder(crawlStorage.getAbsolutePath());
-		config.setMaxDepthOfCrawling(2);
+		config.setMaxDepthOfCrawling(4);
 
 		int numCrawlers = 1;
 
